@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SOKOBAN"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose your character"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/hero_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/hero" />
+
+        <ImageView
+            android:id="@+id/heronew_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/heronew"
+            android:layout_marginStart="32dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="24dp">
+
+        <Button
+            android:id="@+id/button_use_standard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="Play!" />
+
+        <Button
+            android:id="@+id/button_use_new"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play!"
+            android:layout_marginStart="24dp" />
+    </LinearLayout>
+
+</LinearLayout>
