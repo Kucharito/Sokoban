@@ -35,7 +35,17 @@ The player controls a character inside a maze.
 - Boxes cannot be pulled, only pushed.  
 - The puzzle is solved when all boxes are on targets.  
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="screenshots/Screenshot1.png" alt="Home Screen" width="250"/>
+  <img src="screenshots/Screenshot2.png" alt="Forecast Screen" width="250"/>
+  <img src="screenshots/Screenshot3.png" alt="Settings" width="250"/>
+  <img src="screenshots/Screenshot4.png" alt="About App" width="250"/>
+</p>
+
+
 ## 🧑‍💻 Author
 
-Created by **Adam Kuchar**  
+Created by **Adam Kuchár**  
 Developed as part of coursework – Android application project.
